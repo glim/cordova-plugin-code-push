@@ -26,9 +26,11 @@ var HttpRequester = (function () {
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
                 var response = { statusCode: xhr.status, body: xhr.responseText };
+                console.log('codepush >>> HTTP Response: ', JSON.stringify(response));
                 requestCallback && requestCallback(null, response);
             }
         };
+        console.log('codepush >>> Sending HTTP request: ', methodName, ' - ', url);
         xhr.open(methodName, url, true);
         if (this.contentType) {
             xhr.setRequestHeader("Content-Type", this.contentType);
