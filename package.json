@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-code-pushfork",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Fork of CodePush Plugin for Apache Cordova",
   "cordova": {
     "id": "cordova-plugin-code-pushfork",
