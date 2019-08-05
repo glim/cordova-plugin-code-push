@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-code-push",
-  "version": "1.11.20",
-  "description": "CodePush Plugin for Apache Cordova",
+  "name": "cordova-plugin-code-pushfork",
+  "version": "1.0",
+  "description": "Fork of CodePush Plugin for Apache Cordova",
   "cordova": {
-    "id": "cordova-plugin-code-push",
+    "id": "cordova-plugin-code-pushfork",
     "platforms": [
       "android",
       "ios"
@@ -11,15 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/cordova-plugin-code-push"
+    "url": "https://github.com/gabriele-sacchi/cordova-plugin-code-push"
   },
   "keywords": [
     "cordova",
     "code",
-    "push",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "push"
   ],
   "author": "Microsoft Corporation",
   "license": "MIT",
