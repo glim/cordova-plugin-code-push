@@ -1,3 +1,5 @@
+window.hasForkedCodepush = true;
+
 /// <reference path="../typings/codePush.d.ts" />
 /// <reference types="cordova-plugin-file" />
 /// <reference types="cordova-plugin-file-transfer" />
