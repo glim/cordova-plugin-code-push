@@ -1,3 +1,4 @@
+window.hasForkedCodepush = true;
 
  /******************************************************************************************** 
  	 THIS FILE HAS BEEN COMPILED FROM TYPESCRIPT SOURCES. 
