@@ -11,12 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabriele-sacchi/cordova-plugin-code-push.git"
+    "url": "https://github.com/gabriele-sacchi/cordova-plugin-code-push"
   },
   "keywords": [
     "cordova",
     "code",
-    "push"
+    "push",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
   ],
   "author": "Microsoft Corporation",
   "license": "MIT",
